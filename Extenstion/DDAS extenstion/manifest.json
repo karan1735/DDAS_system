@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Download Monitor Extenstion",
+  "version": "1.0",
+  "permissions": [
+    "downloads",
+    "notifications"
+  ],
+  "host_permissions": [
+    "http://localhost:5003/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
